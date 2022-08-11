@@ -1,0 +1,59 @@
+
+body {
+    text-align: center;
+  }
+  
+  i {
+    margin: 0 0.7rem;
+    border: 0.5px solid;
+    border-color: light-blue;
+    color: blue;
+    border-radius: 50%;
+    padding: 0.5em;
+    cursor: pointer;
+  }
+  
+  i:hover {
+    background-color: blue;
+    color: #fff;
+  }
+  
+  h1 {
+    color: #737373;
+    font-size: 3.5rem;
+  }
+  
+  b {
+    color: #000;
+  }
+  
+  input {
+    height: 59px;
+    /* border-radius: 30px;
+    border-color: #737373; */
+  }
+  
+  
+  .image {
+    width: 54%;
+  }
+  
+  
+  @media (max-width: 992px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    input {
+      width: 90%;
+      margin-bottom: 14px;
+    }
+  
+    .my-button {
+      width: 90%;
+    }
+  
+    .image {
+      width: 85%;
+    }
+  }
